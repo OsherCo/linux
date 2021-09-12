@@ -1,1 +1,0 @@
-cmd_/root/linux/tools/labs/skels/./kernel_modules/7-list-proc/modules.order := {   echo /root/linux/tools/labs/skels/./kernel_modules/7-list-proc/list_proc.ko; :; } | awk '!x[$$0]++' - > /root/linux/tools/labs/skels/./kernel_modules/7-list-proc/modules.order

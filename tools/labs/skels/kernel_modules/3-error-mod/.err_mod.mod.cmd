@@ -1,1 +1,0 @@
-cmd_/root/linux/tools/labs/skels/./kernel_modules/3-error-mod/err_mod.mod := { echo  /root/linux/tools/labs/skels/./kernel_modules/3-error-mod/err_mod.o;  echo; } > /root/linux/tools/labs/skels/./kernel_modules/3-error-mod/err_mod.mod

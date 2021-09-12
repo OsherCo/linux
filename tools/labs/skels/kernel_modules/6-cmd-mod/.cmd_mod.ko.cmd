@@ -1,1 +1,0 @@
-cmd_/root/linux/tools/labs/skels/./kernel_modules/6-cmd-mod/cmd_mod.ko := ld -r -m elf_i386  --build-id=sha1  -T scripts/module.lds -o /root/linux/tools/labs/skels/./kernel_modules/6-cmd-mod/cmd_mod.ko /root/linux/tools/labs/skels/./kernel_modules/6-cmd-mod/cmd_mod.o /root/linux/tools/labs/skels/./kernel_modules/6-cmd-mod/cmd_mod.mod.o;  true

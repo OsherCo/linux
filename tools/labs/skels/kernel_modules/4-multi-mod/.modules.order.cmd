@@ -1,1 +1,0 @@
-cmd_/root/linux/tools/labs/skels/./kernel_modules/4-multi-mod/modules.order := {   echo /root/linux/tools/labs/skels/./kernel_modules/4-multi-mod/multi_mod.ko; :; } | awk '!x[$$0]++' - > /root/linux/tools/labs/skels/./kernel_modules/4-multi-mod/modules.order

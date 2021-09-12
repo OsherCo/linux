@@ -1,1 +1,0 @@
-cmd_/root/linux/tools/labs/skels/./kernel_modules/1-2-test-mod/hello_mod.mod := { echo  /root/linux/tools/labs/skels/./kernel_modules/1-2-test-mod/hello_mod.o;  echo; } > /root/linux/tools/labs/skels/./kernel_modules/1-2-test-mod/hello_mod.mod

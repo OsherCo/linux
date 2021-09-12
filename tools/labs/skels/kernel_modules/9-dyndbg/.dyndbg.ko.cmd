@@ -1,1 +1,0 @@
-cmd_/root/linux/tools/labs/skels/./kernel_modules/9-dyndbg/dyndbg.ko := ld -r -m elf_i386  --build-id=sha1  -T scripts/module.lds -o /root/linux/tools/labs/skels/./kernel_modules/9-dyndbg/dyndbg.ko /root/linux/tools/labs/skels/./kernel_modules/9-dyndbg/dyndbg.o /root/linux/tools/labs/skels/./kernel_modules/9-dyndbg/dyndbg.mod.o;  true

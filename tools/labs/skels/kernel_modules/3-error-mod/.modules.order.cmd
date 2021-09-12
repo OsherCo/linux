@@ -1,1 +1,0 @@
-cmd_/root/linux/tools/labs/skels/./kernel_modules/3-error-mod/modules.order := {   echo /root/linux/tools/labs/skels/./kernel_modules/3-error-mod/err_mod.ko; :; } | awk '!x[$$0]++' - > /root/linux/tools/labs/skels/./kernel_modules/3-error-mod/modules.order
