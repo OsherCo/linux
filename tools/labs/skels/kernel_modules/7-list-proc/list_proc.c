@@ -2,7 +2,6 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/sched/signal.h>
-/* TODO: add missing headers */
 
 MODULE_DESCRIPTION("List current processes");
 MODULE_AUTHOR("Kernel Hacker");
@@ -14,11 +13,14 @@ static int my_proc_init(void)
 	
 	p = current;
 	
-	pr_info("PID: %d\n", (*p).pid);
-	pr_info("NAME: %s\n", (*p).comm);
-	/* TODO: print current process pid and its name */
-
-	/* TODO: print the pid and name of all processes */
+	pr_info("CURR PID: %d\n", p->pid);
+	pr_info("CURR NAME: %s\n", p->comm);
+	
+	for_each_process(p)
+	{
+		pr_info("PID: %d\n", p->pid);
+		pr_info("NAME: %s\n", p->comm);
+	}
 
 	return 0;
 }
@@ -29,9 +31,8 @@ static void my_proc_exit(void)
 	
 	p = current;
 	
-	pr_info("PID: %d\n", (*p).pid);
-	pr_info("NAME: %s\n", (*p).comm);
-	/* TODO: print current process pid and name */
+	pr_info("CURR PID: %d\n", p->pid);
+	pr_info("CURR NAME: %s\n", p->comm);
 }
 
 module_init(my_proc_init);
