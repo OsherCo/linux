@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./kernel_modules/4-multi-mod/multi_mod.mod := { echo  /root/linux/tools/labs/skels/./kernel_modules/4-multi-mod/mod1.o /root/linux/tools/labs/skels/./kernel_modules/4-multi-mod/mod2.o;  echo; } > /root/linux/tools/labs/skels/./kernel_modules/4-multi-mod/multi_mod.mod

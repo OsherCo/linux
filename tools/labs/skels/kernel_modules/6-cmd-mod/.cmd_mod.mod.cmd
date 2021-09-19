@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./kernel_modules/6-cmd-mod/cmd_mod.mod := { echo  /root/linux/tools/labs/skels/./kernel_modules/6-cmd-mod/cmd_mod.o;  echo; } > /root/linux/tools/labs/skels/./kernel_modules/6-cmd-mod/cmd_mod.mod
