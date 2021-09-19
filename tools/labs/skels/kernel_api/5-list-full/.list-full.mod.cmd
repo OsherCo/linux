@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./kernel_api/5-list-full/list-full.mod := { echo  /root/linux/tools/labs/skels/./kernel_api/5-list-full/list-full.o;  echo; } > /root/linux/tools/labs/skels/./kernel_api/5-list-full/list-full.mod

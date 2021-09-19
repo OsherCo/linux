@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./kernel_api/7-list-test/modules.order := {   echo /root/linux/tools/labs/skels/./kernel_api/7-list-test/list-test.ko; :; } | awk '!x[$$0]++' - > /root/linux/tools/labs/skels/./kernel_api/7-list-test/modules.order

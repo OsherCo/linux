@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./kernel_api/7-list-test/list-test.mod := { echo  /root/linux/tools/labs/skels/./kernel_api/7-list-test/list-test.o;  echo; } > /root/linux/tools/labs/skels/./kernel_api/7-list-test/list-test.mod

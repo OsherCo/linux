@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./kernel_api/1-mem/mem.ko := ld -r -m elf_i386  --build-id=sha1  -T scripts/module.lds -o /root/linux/tools/labs/skels/./kernel_api/1-mem/mem.ko /root/linux/tools/labs/skels/./kernel_api/1-mem/mem.o /root/linux/tools/labs/skels/./kernel_api/1-mem/mem.mod.o;  true
