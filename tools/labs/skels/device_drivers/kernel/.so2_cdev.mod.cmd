@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./device_drivers/kernel/so2_cdev.mod := { echo  /root/linux/tools/labs/skels/./device_drivers/kernel/so2_cdev.o;  echo; } > /root/linux/tools/labs/skels/./device_drivers/kernel/so2_cdev.mod

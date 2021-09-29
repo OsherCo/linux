@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./device_drivers/extra/char-driver-lin/modules.order := {   echo /root/linux/tools/labs/skels/./device_drivers/extra/char-driver-lin/modul.ko; :; } | awk '!x[$$0]++' - > /root/linux/tools/labs/skels/./device_drivers/extra/char-driver-lin/modules.order

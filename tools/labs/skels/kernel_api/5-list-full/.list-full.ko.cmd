@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./kernel_api/5-list-full/list-full.ko := ld -r -m elf_i386  --build-id=sha1  -T scripts/module.lds -o /root/linux/tools/labs/skels/./kernel_api/5-list-full/list-full.ko /root/linux/tools/labs/skels/./kernel_api/5-list-full/list-full.o /root/linux/tools/labs/skels/./kernel_api/5-list-full/list-full.mod.o;  true

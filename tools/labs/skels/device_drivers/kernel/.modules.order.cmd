@@ -1,0 +1,1 @@
+cmd_/root/linux/tools/labs/skels/./device_drivers/kernel/modules.order := {   echo /root/linux/tools/labs/skels/./device_drivers/kernel/so2_cdev.ko; :; } | awk '!x[$$0]++' - > /root/linux/tools/labs/skels/./device_drivers/kernel/modules.order
